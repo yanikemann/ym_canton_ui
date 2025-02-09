@@ -211,7 +211,7 @@ class CantonExpansionTileState extends State<CantonExpansionTile>
     final ThemeData theme = Theme.of(context);
     _borderColorTween.end = theme.dividerColor;
     _headerColorTween
-      ..begin = theme.textTheme.subtitle1!.color
+      ..begin = theme.textTheme.titleMedium!.color
       ..end = theme.colorScheme.primary;
     _iconColorTween
       ..begin = theme.unselectedWidgetColor
